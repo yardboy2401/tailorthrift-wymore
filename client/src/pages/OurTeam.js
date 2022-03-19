@@ -1,5 +1,5 @@
 import React from 'react'
-import Headshot1 from '../assets/JeffHead.png'
+import Headshot1 from '../assets/JeffHead.jpg'
 import Headshot2 from '../assets/MarcHead.png'
 import Headshot3 from '../assets/MattHead.png'
 import Headshot4 from '../assets/OscarHead.png'
