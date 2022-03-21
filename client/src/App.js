@@ -53,13 +53,15 @@ function App() {
         <StoreProvider>
           <BrowserRouter>
             <Header />
-            <nav class='header navbar navbar-expand-sm'>
+            <nav class='navbar navbar-expand-sm header navbar-light bg-light'>
               <Link  to="/" class=" appLink navbar-brand mx-auto" href="#">
                 <img src={Logo} alt='Logo' class='logo ' />
               </Link>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
               <div class="collapse navbar-collapse headerIcons" id="navbarSupportedContent">
-
-                <ul class="navbar-nav headerIcons mr-auto">
+                <ul class="navbar-nav mr-auto headerIcons">
                   <li class="nav-item">
                     <Link to="/login" class='appLink'>
                       {Auth.loggedIn() ? (<img src={LoggedIn} alt='loggedOutIcon' class='loggedOutIcon' />) : (<img src={LoggedOut} alt='loggedOutIcon' class='loggedOutIcon' />)}</Link>
@@ -67,7 +69,7 @@ function App() {
                   <li class='cartHeaderIcon'> <Cart /></li>
                 </ul>
               </div>
-              <ul class="navbar-nav headerTextLinks">
+              <ul class="navbar-nav headerTextLinks mr-auto">
                   <li class="nav-item headerTextItem mx-2">
                   <Link to="/mission" class='appLink LinkText '>Our Mission</Link>
                   </li>
