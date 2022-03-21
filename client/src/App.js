@@ -53,13 +53,13 @@ function App() {
         <StoreProvider>
           <BrowserRouter>
             <Header />
-            <nav class='header navbar navbar-expand-lg '>
+            <nav class='header navbar navbar-expand-sm'>
               <Link  to="/" class=" appLink navbar-brand mx-auto" href="#">
                 <img src={Logo} alt='Logo' class='logo ' />
               </Link>
               <div class="collapse navbar-collapse headerIcons" id="navbarSupportedContent">
 
-                <ul class="navbar-nav headerIcons">
+                <ul class="navbar-nav headerIcons mr-auto">
                   <li class="nav-item">
                     <Link to="/login" class='appLink'>
                       {Auth.loggedIn() ? (<img src={LoggedIn} alt='loggedOutIcon' class='loggedOutIcon' />) : (<img src={LoggedOut} alt='loggedOutIcon' class='loggedOutIcon' />)}</Link>

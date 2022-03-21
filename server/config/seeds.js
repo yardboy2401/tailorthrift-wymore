@@ -103,16 +103,6 @@ db.once('open', async () => {
       {
         name: 'Sweater',
         description:
-          'Beige Sweater',
-        image: "./images/Tops/BeigeSweater.png",
-        category: categories[1]._id,
-        price: 25.00,
-        size: 'large',
-        quantity: 3
-      },
-      {
-        name: 'Sweater',
-        description:
           'Black Sweater',
         image: "./images/Tops/BlackSweater.png",
         category: categories[1]._id,
