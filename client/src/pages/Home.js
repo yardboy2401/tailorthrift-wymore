@@ -53,17 +53,17 @@ const Home = () => {
         <div class='CategorySection row'>
           <div class='categoryBtn col'>
             <button class='CategoryLink  ' onClick={() => {
-              handleClick('6221a81e9adefc51b042a210')
+              handleClick('6238d4f0e81c3e0022922a3b')
             }}>Shop Shirts</button>
           </div>
           <div class='categoryBtn col'>
             <button class='CategoryLink  ' onClick={() => {
-              handleClick('6221a81e9adefc51b042a212')
+              handleClick('6238d4f0e81c3e0022922a3d')
             }}>Shop Slacks</button>
           </div>
           <div class='categoryBtn col'>
             <button class='CategoryLink  ' onClick={() => {
-              handleClick('6221a81e9adefc51b042a216')
+              handleClick('6238d4f0e81c3e0022922a41')
             }}>Shop Accessories</button>
           </div>
         </div>
