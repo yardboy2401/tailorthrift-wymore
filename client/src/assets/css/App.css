@@ -12,9 +12,6 @@
     color: var(--darkblue);
     text-decoration: none;
     padding:0px !important;
-    
-
-
 }
 
 .headerIcons{
@@ -36,14 +33,11 @@ position:absolute;
 
 .appLink{
     color: var(--dark-grey)
-
 }
 
 .loggedOutIcon{
     height: 35px;
 }
-
-
 
 .cartHeaderIcon{
     display:flex;
