@@ -115,17 +115,16 @@
   } */
 
   
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .cart {
       position: relative;
       max-width: 100%;
       max-height: auto;
       box-shadow: none;
-      background-color: inherit;
     }
   
     .cart-closed {
       position: relative;
       margin: 0 auto;
     }
-  }
+  } */
