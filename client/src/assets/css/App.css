@@ -43,4 +43,13 @@ position:absolute;
     display:flex;
     justify-self: flex-start;
 }
+@media screen and (max-width: 480px) {
+    .headerTextItem {
+        font-size: 10px;
+    }
 
+    .logo {
+        height: 30px;
+        padding-left: 15px;
+    }
+}
