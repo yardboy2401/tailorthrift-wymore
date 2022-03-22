@@ -214,14 +214,6 @@
     margin-right: auto !important;
   }
 
-  
-  @media screen and (max-width: 700px) {
-    .bannerText {
-      font-size: 24px;
-      margin-top: -30%;
-    }
-  }
-
   @media screen and (max-width: 480px) {
     .bannerText {
       font-size: 24px;
