@@ -26,8 +26,8 @@ And a shout out to the UW Boot Camp instructional staff for helping troubleshoot
 
 ## Questions 
 Please refer to the GitHub for the source code. Please visit the page for information on how to contact the developers. <br />
-Github account: https://github.com/StevenEi/Project-03-TailorThrift <br /> 
-Launched Project: https://tailorthrift.herokuapp.com/ <br />
+Github account: https://github.com/yardboy2401/tailorthrift-wymore <br /> 
+Launched Project: https://tailorthrift-wymore.herokuapp.com/ <br />
     
 ## Licensing 
 No licensing currently.
