@@ -49,9 +49,9 @@ function CategoryMenu() {
 
   return (
     <div>
-    <div class='categorySection'>
+    <div className='categorySection'>
       {categories.map((item) => (
-        <button class='productPageButton'
+        <button className='productPageButton'
           key={item._id}
           onClick={() => {
             handleClick(item._id);
@@ -64,7 +64,7 @@ function CategoryMenu() {
 
     </div>
     <div>
-                  <button onClick={handleClick2} class='productPageButton'>Click to View All Products</button>
+                  <button onClick={handleClick2} className='productPageButton'>Click to View All Products</button>
     </div>
     </div>
   );

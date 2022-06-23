@@ -6,7 +6,7 @@ import '../FeatureCard/FeatureCard.css'
 const FeatureCards = () => {
   return (
     <div>
-     <div class='featureCard'>
+     <div className='featureCard'>
      </div>
     </div>
   )

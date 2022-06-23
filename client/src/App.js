@@ -53,31 +53,31 @@ function App() {
         <StoreProvider>
           <BrowserRouter>
             <Header />
-            <nav class='navbar navbar-expand-sm header navbar-light bg-light'>
-              <Link  to="/" class=" appLink navbar-brand mx-auto" href="#">
-                <img src={Logo} alt='Logo' class='logo ' />
+            <nav className='navbar navbar-expand-sm header navbar-light bg-light'>
+              <Link  to="/" className=" appLink navbar-brand mx-auto" href="#">
+                <img src={Logo} alt='Logo' className='logo ' />
               </Link>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse headerIcons" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto headerIcons">
-                  <li class="nav-item">
-                    <Link to="/login" class='appLink'>
-                      {Auth.loggedIn() ? (<img src={LoggedIn} alt='loggedOutIcon' class='loggedOutIcon' />) : (<img src={LoggedOut} alt='loggedOutIcon' class='loggedOutIcon' />)}</Link>
+              <div className="collapse navbar-collapse headerIcons" id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto headerIcons">
+                  <li className="nav-item">
+                    <Link to="/login" className='appLink'>
+                      {Auth.loggedIn() ? (<img src={LoggedIn} alt='loggedOutIcon' className='loggedOutIcon' />) : (<img src={LoggedOut} alt='loggedOutIcon' className='loggedOutIcon' />)}</Link>
                   </li>
-                  <li class='cartHeaderIcon'> <Cart /></li>
+                  <li className='cartHeaderIcon'> <Cart /></li>
                 </ul>
               </div>
-              <ul class="navbar-nav headerTextLinks mr-auto">
-                  <li class="nav-item headerTextItem mx-2">
-                  <Link to="/mission" class='appLink LinkText '>Our Mission</Link>
+              <ul className="navbar-nav headerTextLinks mr-auto">
+                  <li className="nav-item headerTextItem mx-2">
+                  <Link to="/mission" className='appLink LinkText '>Our Mission</Link>
                   </li>
-                  <li class="nav-item headerTextItem mx-2">
-                  <Link to="/products" class='appLink LinkText '>Products</Link>
+                  <li className="nav-item headerTextItem mx-2">
+                  <Link to="/products" className='appLink LinkText '>Products</Link>
                   </li>
-                  {/* <li class="nav-item headerTextItem mx-2">
-                  <Link to="/aboutus" class='appLink LinkText '>About Us</Link> 
+                  {/* <li className="nav-item headerTextItem mx-2">
+                  <Link to="/aboutus" className='appLink LinkText '>About Us</Link> 
                   </li> */}
 
                 </ul>

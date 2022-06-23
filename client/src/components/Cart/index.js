@@ -64,7 +64,7 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <img src={CartEmpty} alt='' class='CartEmptyIcon'/>
+        <img src={CartEmpty} alt='' className='CartEmptyIcon'/>
       </div>
     );
   }
@@ -90,9 +90,9 @@ const Cart = () => {
             <strong>Total: ${calculateTotal()}</strong>
 
             {Auth.loggedIn() ? (
-              <button class='checkoutBtn' onClick={submitCheckout}>Checkout</button>
+              <button className='checkoutBtn' onClick={submitCheckout}>Checkout</button>
             ) : (
-              <div class='cartLoginPrompt'>(log in to check out)</div>
+              <div className='cartLoginPrompt'>(log in to check out)</div>
             )}
           </div>
         </div>

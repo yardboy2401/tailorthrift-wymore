@@ -85,31 +85,31 @@ function Detail() {
   return (
     <>
       {currentProduct && cart ? (
-        <div class=''>
-          <div class=''>
-            <img src={SingleProductBanner} alt='' class='singleProductBanner' />
+        <div className=''>
+          <div className=''>
+            <img src={SingleProductBanner} alt='' className='singleProductBanner' />
           </div>
           <div className="singleProductContainer my-1 row">
 
-            <div class='singleProduct col' >
-              <img class='singleProduct'
+            <div className='singleProduct col' >
+              <img className='singleProduct'
                 src={`../${currentProduct.image}`}
                 alt={currentProduct.name}
               />
             </div>
-            <div class='col'>
-              <p class='singleProductTitle'>{currentProduct.name}</p>
+            <div className='col'>
+              <p className='singleProductTitle'>{currentProduct.name}</p>
 
-              <p class='singleProductText'>{currentProduct.description}</p>
+              <p className='singleProductText'>{currentProduct.description}</p>
 
               <p>
-              <p class='singleProductText'>Size: {currentProduct.size}{' '}</p>
-                <p class='singleProductText'>Price: ${currentProduct.price}{' '}</p>
+              <p className='singleProductText'>Size: {currentProduct.size}{' '}</p>
+                <p className='singleProductText'>Price: ${currentProduct.price}{' '}</p>
                 <div>
-                 <button class='singleProductBtn' onClick={addToCart}>Add to Cart</button> 
+                 <button className='singleProductBtn' onClick={addToCart}>Add to Cart</button> 
                 </div>
                 <div>
-                   <button class='singleProductBtn'
+                   <button className='singleProductBtn'
                   disabled={!cart.find((p) => p._id === currentProduct._id)}
                   onClick={removeFromCart}
                 >

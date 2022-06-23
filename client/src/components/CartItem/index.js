@@ -50,7 +50,7 @@ const CartItem = ({ item }) => {
         <div>
           <span>Qty</span>
           <input
-            class='qtyField'
+            className='qtyField'
             type="number"
             placeholder="1"
             value={item.purchaseQuantity}

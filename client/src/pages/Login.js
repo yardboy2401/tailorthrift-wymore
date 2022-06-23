@@ -33,13 +33,13 @@ function Login(props) {
   return (
     <div className="container my-1">
       <div className="loginCard">
-        <h2 class="loginTitle">Registered customers</h2>
+        <h2 className="loginTitle">Registered customers</h2>
 
         {Auth.loggedIn() ? (
           <div className="flex-row flex-end logoutButton">
             <button
               type="submit"
-              class="logoutBtn"
+              className="logoutBtn"
               onClick={() => Auth.logout()}
             >
               Logout
@@ -80,7 +80,7 @@ function Login(props) {
               <div className="flex-row flex-end logoutButton">
                 <button
                   type="submit"
-                  class="logoutBtn"
+                  className="logoutBtn"
                   onClick={() => Auth.logout()}
                 >
                   Logout
@@ -88,7 +88,7 @@ function Login(props) {
               </div>
             ) : (
               <div className="flex-row flex-end loginButton">
-                <button type="submit" class="loginBtn">
+                <button type="submit" className="loginBtn">
                   Login
                 </button>
               </div>
@@ -97,8 +97,8 @@ function Login(props) {
         )}
       </div>
       <div className="redirectSection">
-        <div class="loginRedirect">Not a member?</div>
-        <Link to="/signup" class="goToSignUp">
+        <div className="loginRedirect">Not a member?</div>
+        <Link to="/signup" className="goToSignUp">
           <span>←</span> Go To Signup
         </Link>
       </div>

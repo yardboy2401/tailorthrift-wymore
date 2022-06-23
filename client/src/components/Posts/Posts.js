@@ -30,10 +30,10 @@ const Posts = () => {
     <div className="postsContainer row " >
       {blogPosts.map((post, index) => (
         <div className=" postCard col">
-          <div class='' key={index} index={index}>
-            <p class='postTitle'>{post.title}</p>
-            <p class='postText'>{post.body}</p>
-            <p class='postAuthor'>-{post.author}</p>
+          <div className='' key={index} index={index}>
+            <p className='postTitle'>{post.title}</p>
+            <p className='postText'>{post.body}</p>
+            <p className='postAuthor'>-{post.author}</p>
           </div>
         </div>
 

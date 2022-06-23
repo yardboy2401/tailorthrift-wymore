@@ -58,7 +58,7 @@ console.log('RIght if statement test', !state.currentCategory)
       {state.products.length ? (
         <div className="row">
           {filterProducts().map((product) => (
-            <ProductItem class='productLinkText'
+            <ProductItem className='productLinkText'
               key={product._id}
               _id={product._id}
               image={product.image}

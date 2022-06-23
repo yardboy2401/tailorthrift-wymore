@@ -55,8 +55,8 @@ function Signup(props) {
 
   return (
     <div className="container my-1">
-      <div class="loginCard">
-        <h2 class="loginTitle">New Users</h2>
+      <div className="loginCard">
+        <h2 className="loginTitle">New Users</h2>
       </div>
 
       <form onSubmit={handleFormSubmit}>
@@ -97,7 +97,7 @@ function Signup(props) {
           <label htmlFor="pwd"></label>
           <input
             className="loginField"
-            placeholder="******"
+            placeholder="Password"
             name="password"
             type="password"
             id="pwd"
@@ -105,14 +105,14 @@ function Signup(props) {
           />
 
                     <div >
-            <p class='measureTitleLogin'>New User Measurements</p>
+            <p className='measureTitleLogin'>New User Measurements</p>
 
           </div>
         </div>
 
-        <div class="measureCard">
+        <div className="measureCard">
           <div className="measureFields">
-            <label class="measureTitleText" htmlFor="chest">
+            <label className="measureTitleText" htmlFor="chest">
               Chest{" "}
             </label>
             <input
@@ -125,7 +125,7 @@ function Signup(props) {
             />
           </div>
           <div className="measureFields">
-            <label class="measureTitleText" htmlFor="pwd">
+            <label className="measureTitleText" htmlFor="pwd">
               Arms
             </label>
             <input
@@ -138,7 +138,7 @@ function Signup(props) {
             />
           </div>
           <div className="measureFields">
-            <label class="measureTitleText" htmlFor="waist">
+            <label className="measureTitleText" htmlFor="waist">
               Waist
             </label>
             <input
@@ -151,7 +151,7 @@ function Signup(props) {
             />
           </div>
           <div className="measureFields">
-            <label class="measureTitleText" htmlFor="legs">
+            <label className="measureTitleText" htmlFor="legs">
               Inseam
             </label>
             <input
@@ -166,14 +166,14 @@ function Signup(props) {
         </div>
 
         <div className="flex-end loginButton">
-          <button type="submit" class="loginBtn">
+          <button type="submit" className="loginBtn">
             Sign Up
           </button>
         </div>
       </form>
       <div>
-        <div class="signUpRedirect">Already a member?</div>
-        <Link to="/login" class="goToLogin">
+        <div className="signUpRedirect">Already a member?</div>
+        <Link to="/login" className="goToLogin">
           ← Go to Login
         </Link>
       </div>

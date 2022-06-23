@@ -5,17 +5,17 @@ import Logo from '../../assets/Logo.png'
 
 const Footer = () => {
   return (
-    <div class='footerSection'>
+    <div className='footerSection'>
 
       <div className='row'>
 
 
         <div className='contactSection col-sm'>
 
-          <ul class='listContainer contactTeam'>
+          <ul className='listContainer contactTeam'>
             <li>
-            <p class="contactTitle1"> Problem with the site? </p>
-              <p class="contactTitle2"> Contact the WebDev Team</p>
+            <p className="contactTitle1"> Problem with the site? </p>
+              <p className="contactTitle2"> Contact the WebDev Team</p>
             </li>
             <li>
               <a href="mailto:yardboy2401@gmail.com?cc=mpacampara@gmail.com; matthewwalkermw64@gmail.com; seiselts@gmail.com; Bigop76.op@gmail.com&Subject=Tailor%20Swift%20Customer%20Feedback">Jeff Wymore</a>
@@ -39,7 +39,7 @@ const Footer = () => {
 
           <ul className='listContainer  contactTeam'>
             <li>
-              <p class='contactTitle1'>Site Links </p>
+              <p className='contactTitle1'>Site Links </p>
             </li>
             <li className="mx-1">
               <Link to="/ourteam">
@@ -79,14 +79,14 @@ const Footer = () => {
         </div>
         <div className='col-sm mediaContainer'>
         <div>
-            <img src={Logo} alt='' class='footerLogo' />
+            <img src={Logo} alt='' className='footerLogo' />
           </div>
           <ul className='listContainer'>
-          <i class="fa fa-facebook-f"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-github"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+          <i className="fa fa-facebook-f"></i>
+            <i className="fa fa-twitter"></i>
+            <i className="fa fa-github"></i>
+            <i className="fa fa-instagram"></i>
+            <i className="fa fa-linkedin"></i>
           </ul>
 
         </div>

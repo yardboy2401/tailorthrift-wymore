@@ -29,60 +29,60 @@ const Home = () => {
 
   return (
     <div>
-      <div class='logoContainer'>
-        <img src={Banner} alt='banner' class='banner' />
-        <p class='bannerText'>Bring Confidence To What You Wear</p>
+      <div className='logoContainer'>
+        <img src={Banner} alt='banner' className='banner' />
+        <p className='bannerText'>Bring Confidence To What You Wear</p>
       </div>
-      <div class='featureSection row'>
-        <p class='featureTitle'>
+      <div className='featureSection row'>
+        <p className='featureTitle'>
           {/* Featured Items */}
         </p>
 
 
-        <div class='featureCard  col feature1'><FeatureCards />
-          <img src={Feature1} alt='' class='feature' /> </div>
-        <div class='featureCard col feature2'><FeatureCards />
-          <img src={Feature2} alt='' class='feature' /></div>
-        <div class='featureCard col feature3'><FeatureCards />
-          <img src={Feature3} alt='' class='feature' /></div>
-        <div class='featureCard col feature4'><FeatureCards />
-          <img src={Feature4} alt='' class='feature' /></div>
+        <div className='featureCard  col feature1'><FeatureCards />
+          <img src={Feature1} alt='' className='feature' /> </div>
+        <div className='featureCard col feature2'><FeatureCards />
+          <img src={Feature2} alt='' className='feature' /></div>
+        <div className='featureCard col feature3'><FeatureCards />
+          <img src={Feature3} alt='' className='feature' /></div>
+        <div className='featureCard col feature4'><FeatureCards />
+          <img src={Feature4} alt='' className='feature' /></div>
       </div >
 
-      <div class='shopSection'>
-        <div class='CategorySection row'>
-          <div class='categoryBtn col'>
-            <button class='CategoryLink  ' onClick={() => {
+      <div className='shopSection'>
+        <div className='CategorySection row'>
+          <div className='categoryBtn col'>
+            <button className='CategoryLink  ' onClick={() => {
               handleClick('6238d4f0e81c3e0022922a3b')
             }}>Shop Shirts</button>
           </div>
-          <div class='categoryBtn col'>
-            <button class='CategoryLink  ' onClick={() => {
+          <div className='categoryBtn col'>
+            <button className='CategoryLink  ' onClick={() => {
               handleClick('6238d4f0e81c3e0022922a3d')
             }}>Shop Slacks</button>
           </div>
-          <div class='categoryBtn col'>
-            <button class='CategoryLink  ' onClick={() => {
+          <div className='categoryBtn col'>
+            <button className='CategoryLink  ' onClick={() => {
               handleClick('6238d4f0e81c3e0022922a41')
             }}>Shop Accessories</button>
           </div>
         </div>
       </div>
 
-      <div class='statementSection'>
-        <p class='statementTitle'>A <i>SMALL</i> ALTERATION CAN CHANGE THE WORLD</p>
-        <p class='statementText'>
+      <div className='statementSection'>
+        <p className='statementTitle'>A <i>SMALL</i> ALTERATION CAN CHANGE THE WORLD</p>
+        <p className='statementText'>
           Tailor/Thrift exists to provide a low cost option to form fitting ware. We aim to help our customers find purpose in the repurposed. We do this by providing selections of quality inspected previously-owned clothing combined with our alteration services to get the right fit. With our eco-friendly up cycling model through, our customers not only feel confident in their clothes but in where they bought it as well.
         </p>
       </div>
 
 
-      <div class='MeasurementSection row'>
-        <div class='col measure1 measure'>
-          <img src={Measure} alt="" class='measurePhoto' />
+      <div className='MeasurementSection row'>
+        <div className='col measure1 measure'>
+          <img src={Measure} alt="" className='measurePhoto' />
           <p className='measureTitle'>Guide To Measuring Yourself</p>
         </div>
-        <div class='col measure2 measure'>
+        <div className='col measure2 measure'>
           <CarouselTest />
         </div>
       </div>

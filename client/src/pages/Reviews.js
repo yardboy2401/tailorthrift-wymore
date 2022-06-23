@@ -6,9 +6,9 @@ import Posts from "../components/Posts/Posts.js";
 const App = () => {
 return (
 	<div className="">
-		    <div class='reviewTitle'>Customer Testimonials</div>
+		    <div className='reviewTitle'>Customer Testimonials</div>
 	<Posts />
-	<div class='reviewTitle'></div>
+	<div className='reviewTitle'></div>
 	</div>
 );
 };
