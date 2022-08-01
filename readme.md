@@ -35,6 +35,7 @@ No licensing currently.
 ## Visuals of Finished Product
 ![image](https://user-images.githubusercontent.com/85953688/182236571-bb9c23f7-4a64-4c65-9110-e1cc30d3ec2b.png)
 
+![image](https://user-images.githubusercontent.com/85953688/182236875-f6b3f4b2-7106-4ffa-9c3c-9ff9928d31cb.png)
 
 ![Project Demo](TT1.gif) <br />
 ![Project Demo](TT2.gif) <br />
